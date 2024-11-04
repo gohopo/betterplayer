@@ -262,6 +262,14 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
           break;
         case VideoEventType.unknown:
           break;
+        case VideoEventType.tapExternalPlayButton:
+          break;
+        case VideoEventType.tapExternalPauseButton:
+          break;
+        case VideoEventType.finishedPlayInLooping:
+          break;
+        case VideoEventType.pressedBackToAppButton:
+          break;
       }
     }
 
